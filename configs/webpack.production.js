@@ -28,20 +28,20 @@ const postCssOptions = {
   sourceMap: true,
 };
 
-
-
-
 const PATHS = {
-  src: path.join(__dirname, 'src')
-}
+  src: path.join(__dirname, 'src'),
+};
 
 module.exports = webpackMerge(baseConfig, {
   mode: 'production',
   devtool: '',
   entry: path.join(process.cwd(), 'src/index.tsx'),
   output: {
-    filename: 'static/js/bundle.[chunkhash:8].js',
-    chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
+    // filename: 'static/js/bundle.[chunkhash:8].js',
+    // chunkFilename: 'static/js/[name].[chunkhash:8].chunk.js',
+    filename: 'js/main-[chunkhash:8].bundle.js',
+    chunkFilename: 'js/[name].[chunkhash:8].js',
+    path: path.resolve(__dirname, '../build'),
   },
   optimization: {
     minimize: true,

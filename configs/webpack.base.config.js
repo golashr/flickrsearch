@@ -4,11 +4,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   target: 'web', // Make web variables accessible to webpack, e.g. window
-  output: {
-    publicPath: '/',
-    path: path.resolve(process.cwd(), 'build'),
-    filename: 'bundle.js',
-  },
+  // output: {
+  //   publicPath: '/',
+  //   path: path.resolve(process.cwd(), 'build'),
+  //   filename: 'bundle.js',
+  // },
   module: {
     rules: [
       {

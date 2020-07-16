@@ -7,7 +7,7 @@ This application is built using Frontend framework React/Redux and uses flickr A
 - React-saga
 - Typescript
 - Dev and Production Webpack setup
-- Netlify
+- HMR
 - Flickr API - https://www.flickr.com/services/feeds/photos_public.gne
 
 ## Key Features
@@ -49,8 +49,6 @@ npm run start:dev
 ```
 
 Open http://localhost:3000/flickrsearch with browser.
-
-**Additionally**, the solution is deployed on https://flickrsearch-golashr.netlify.app/
 
 ## **Further**
 
