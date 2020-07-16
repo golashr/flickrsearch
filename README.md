@@ -49,6 +49,7 @@ npm run start:dev
 ```
 
 Open http://localhost:3000/flickrsearch with browser.
+
 **Additionally**, the solution is deployed on https://flickrsearch-golashr.netlify.app/
 
 ## **Further**
