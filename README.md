@@ -48,7 +48,9 @@ npm install
 npm run start:dev
 ```
 
-Open http://localhost:3000/flickrsearch with browser.
+Open http://localhost:3000/flickrsearch with browser. 
+
+Alternatively, it is deployed on https://flickrsearch-golashr.herokuapp.com/flickrsearch
 
 ## **Further**
 
